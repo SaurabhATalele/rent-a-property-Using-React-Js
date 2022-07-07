@@ -1,0 +1,29 @@
+.Box,.Box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Box{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: .1rem solid var(--black);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.Box form input{
+    margin: 1rem;
+    border:none;
+    border-bottom: .1rem solid var(--black);
+    padding: .5rem;
+}
+
+.Box form input:focus{
+    margin: 1rem;
+    border:none;
+    border-bottom: .1rem solid var(--black);
+}
