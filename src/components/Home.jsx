@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 import Data from "./Data";
 
-var city = 'Location';
-var size = "size"
+
+
 var cityData = [];
 
 function dropNav(selector) {
 
-    city = document.getElementById("Location");
+    // var city = document.getElementById("Location");
   
     document.getElementById(selector).classList.toggle("show");
     var a = document.getElementById("ico").innerText;
